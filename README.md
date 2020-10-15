@@ -1,4 +1,7 @@
-# Leaflet Homework - Visualizing Data with Leaflet
+# Visualizing Data with Leaflet
+
+## Screen Shot from Project
+<img width="1438" alt="Screen Shot" src="https://user-images.githubusercontent.com/65464107/96196039-9bed2900-0f0b-11eb-92cf-97487fa5cded.png">
 
 ## Background
 
