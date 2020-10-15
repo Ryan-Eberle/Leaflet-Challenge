@@ -67,7 +67,7 @@ d3.json(url, function(data){
             };
         },
         onEachFeature: function(feature, layer){
-            layer.bindPopup(`Location: ${feature.properties.place}<br>Time: ${new Date(feature.properties.time)}<br>Magnitude: ${feature.properties.mag}`);
+            layer.bindPopup(`<strong>Location:</strong> ${feature.properties.place}<br><strong>Time:</strong> ${new Date(feature.properties.time)}<br><strong>Magnitude:</strong> ${feature.properties.mag}`);
         }
     }).addTo(earthquakes);
     earthquakes.addTo(myMap);
